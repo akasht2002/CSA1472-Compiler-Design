@@ -4,7 +4,7 @@
 %}
 
 %%
-[aeiouAEIOU] {vow_count++;}
+[aeiouAEIOU] {vow_count++;}.
 [a-zA-Z] {const_count++;}
 %%
 int yywrap(){}
